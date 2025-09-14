@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class array_basics {
     public static void main(String[] args) {
 
@@ -23,6 +27,14 @@ public class array_basics {
         System.out.println(arr_2==clone_arr);
         arr_2[1]=4;
         System.out.println(arr_2[1]+" "+clone_arr[1]);
+
+        // jagged array
+        int[][] ja=new int[2][];
+        ja[0]=new int[2];
+        ja[1]=new int[3];
+
+
+
 
 
 
