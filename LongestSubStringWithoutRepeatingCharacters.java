@@ -16,6 +16,7 @@ public class LongestSubStringWithoutRepeatingCharacters {
         int left = 0, maxLen = 0;
 
         for (int right = 0; right < s.length(); right++) {
+            //If the new character already exists in the substring, we shrink the window from the left until the duplicate is removed
             while (set.contains(s.charAt(right))) {
                 set.remove(s.charAt(left));
                 left++;
@@ -24,6 +25,6 @@ public class LongestSubStringWithoutRepeatingCharacters {
             maxLen = Math.max(maxLen, right - left + 1);
         }
         return maxLen;
-
+        
     }
 }
