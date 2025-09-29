@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class array_basics {
+public class arrayBasics {
     public static void main(String[] args) {
 
         // array basic operations

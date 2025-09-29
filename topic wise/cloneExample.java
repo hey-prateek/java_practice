@@ -19,7 +19,7 @@ class Person implements Cloneable {
     }
 }
 
-public class Clone_Example {
+public class cloneExample {
     public static void main(String[] args) {
         try {
             Person original = new Person("Alice", 25);

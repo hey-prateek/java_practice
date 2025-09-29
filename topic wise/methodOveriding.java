@@ -12,7 +12,7 @@ class subclass extends parent
         System.out.println("child method....");
     } 
 }
-public class method_overiding
+public class methodOveriding
 {
     public static void main(String[] args)
     {

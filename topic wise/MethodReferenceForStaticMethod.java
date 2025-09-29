@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class MethodReferenceForStaticMethod {
+public class methodReferenceForStaticMethod {
     public static void main(String[] args) {
 
         List<person> lst = new ArrayList<>();
@@ -11,13 +11,13 @@ public class MethodReferenceForStaticMethod {
         lst.add(new person("osman", 28));
 
         // compare using method references first by name
-        Collections.sort(lst, MethodReferenceForStaticMethod::comparebyname);
+        Collections.sort(lst, methodReferenceForStaticMethod::comparebyname);
 
         // print this first
         lst.stream().map(x -> x.getName()).forEach(System.out::println);
 
         // now using age
-        Collections.sort(lst, MethodReferenceForStaticMethod::comparebyage);
+        Collections.sort(lst, methodReferenceForStaticMethod::comparebyage);
 
         // print this now
         lst.stream().map(x -> x.getAge()).forEach(System.out::println);

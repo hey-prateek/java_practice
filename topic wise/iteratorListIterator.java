@@ -5,7 +5,7 @@ import java.util.Set;
 import java.util.Iterator;
 import java.util.ListIterator;
 
-public class Iterator_listiterator {
+public class iteratorListIterator {
     public static void main(String[] args) {
         Set<String> set=new HashSet<>();
         set.add("a");

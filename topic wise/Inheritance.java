@@ -24,7 +24,7 @@ class bmw extends Car
 }
 
 
-public class Inheritance {
+public class inheritance {
     public static void main(String[] args) {
         bmw obj=new bmw();
         bmw obj_new=new bmw("test");

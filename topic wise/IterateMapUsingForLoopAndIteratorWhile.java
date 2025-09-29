@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-public class IterateMapUsingForLoopAndIteratorWhile {
+public class iterateMapUsingForLoopAndIteratorWhile {
  public static void main(String[] args) {
     Map<String, String> hmap=new HashMap<>();
     hmap.put("prateek", "tiwari");

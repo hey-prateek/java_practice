@@ -1,4 +1,4 @@
-public class printf_example {
+public class printfExample {
 
     public static void main(String[] args) {
         

@@ -1,6 +1,6 @@
 import java.io.IOException;
 
-public class LambdaExpressionUsingRunnable extends Thread implements Runnable{
+public class lambdaExpressionUsingRunnable extends Thread implements Runnable{
     public static void main(String[] args) throws IOException{
         
         // Runnablee r=new Runnablee();

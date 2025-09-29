@@ -4,7 +4,7 @@ class vehicle
     int i_var=20; // instance variable   
 }
 
-class static_instance_variable
+class staticInstanceVariable
 {
     public static void main(String[] args) {
         

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 
-public class array_list_basic_methods {
+public class arraylistBasicMethods {
 
     public static void main(String[] args) {
         
