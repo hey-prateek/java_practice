@@ -1,4 +1,4 @@
-public class ThreadExampleUsingThreadClass {
+public class threadExampleUsingThreadClass {
     public static void main(String[] args) throws InterruptedException {
         MyThread t1 = new MyThread("T1"); // Create thread with name
         MyThread t2 = new MyThread("T2"); // Create second thread

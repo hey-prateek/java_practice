@@ -1,4 +1,4 @@
-public class variable_arguments {
+public class variableArguments {
 
     public static void var_arg_method(String... names)
     {
