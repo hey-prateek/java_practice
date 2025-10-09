@@ -38,5 +38,10 @@ public class enumExample {
             default:
                 System.out.println("Midweek day.");
         }
+
+        for(Day d : Day.values())
+        {
+            System.out.println(d);
+        }
     }
 }
